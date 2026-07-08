@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "dashboard": "Dashboard Overview",
+    "analytics": "Analytics Reports",
+    "users": "User Management",
+    "settings": "System Settings",
+    "roles": "Permissions & Roles",
+    "logs": "System Logs"
+  },
+
+  "navbar": {
+    "toggleSidebar": "Collapse/Expand Sidebar",
+    "quickSearch": "Search...",
+    "openSettings": "Open settings",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Log out",
+    "changeTheme": "Change Theme"
+  },
+
+  "search": {
+    "placeholder": "Type page name to search...",
+    "results": "Search Results",
+    "noResults": "No results found",
+    "tryAnother": "Try searching with a different term",
+    "popularPages": "Popular Pages",
+    "popularDashboard": "Dashboard",
+    "popularAnalytics": "Analytics",
+    "popularUsers": "Users",
+    "popularSettings": "Settings",
+    "recentSearches": "Recent Searches",
+    "clearAll": "Clear all",
+    "remove": "Remove",
+    "noRecent": "No recent searches",
+    "navigate": "Navigate",
+    "select": "Select"
+  },
+
+  "configSetting": {
+    "title": "UI Customizer",
+    "copied": "Config JSON copied to clipboard!",
+    "copiedTitle": "Copied",
+    "copiedMessage": "Configuration copied to clipboard!",
+    "reset": "Reset Settings",
+    "copyConfig": "Copy Config JSON",
+    "clearCacheLogout": "Clear Cache & Logout",
+
+    "tab": {
+      "general": "General",
+      "interface": "Interface",
+      "layout": "Layout",
+      "sidebar": "Sidebar",
+      "tabs": "Tab Bar",
+      "effects": "Effects",
+      "footer": "Footer"
+    },
+
+    "language": "Language",
+    "dynamicTitle": "Dynamic Title",
+    "backToTop": "Back To Top Button",
+    "watermark": "Watermark Overlay",
+    "watermarkText": "Watermark Text",
+    "placeholderWatermark": "Enter watermark...",
+
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "colorBlind": "Color Blind Mode",
+    "grayscale": "Grayscale Mode",
+
+    "borderRadius": "Border Radius",
+    "fontFamily": "Font Family",
+    "fontWeight": "Font Weight",
+    "titleSize": "Title Font Size",
+    "bodySize": "Body Font Size",
+    "boldText": "Bold Text",
+    "italicText": "Italic Text",
+    "uppercaseText": "Uppercase Headings",
+
+    "primaryColor": "Primary Color",
+    "solidColor": "Solid Color",
+    "gradientColor": "Gradient Color",
+    "navbarColor": "Navbar Solid Color",
+    "navbarGradient": "Navbar Gradient Color",
+    "sidebarColor": "Sidebar Solid Color",
+    "sidebarGradient": "Sidebar Gradient Color",
+
+    "color": {
+      "blue": "Blue",
+      "red": "Red",
+      "yellow": "Yellow",
+      "brown": "Brown",
+      "purple": "Purple",
+      "pink": "Pink",
+      "orange": "Orange",
+      "emerald": "Emerald Green",
+      "teal": "Teal",
+      "indigo": "Indigo"
+    },
+
+    "layoutMode": "Layout Mode",
+    "sidebarPosition": "Sidebar Position",
+    "configPosition": "Config Panel Entry",
+    "positionLeft": "Left",
+    "positionRight": "Right",
+    "positionTop": "Top",
+    "positionBottom": "Bottom",
+
+    "showSidebar": "Show Sidebar",
+    "collapseSidebar": "Collapse Sidebar (Icon)",
+    "sidebarWidth": "Normal Width",
+    "sidebarCollapsedWidth": "Collapsed Width",
+    "accordionMenu": "Accordion Submenu Only",
+
+    "showTabs": "Show Tabs Bar",
+    "persistTabs": "Persist Tabs",
+    "dragTabs": "Enable Drag & Drop",
+    "showTabIcons": "Show Tab Icons",
+    "showMaximizeTab": "Show Maximize Button",
+    "tabStyle": "Tab Style",
+    "maxTabs": "Max Tab Limit",
+    "tabStyleChrome": "Chrome",
+    "tabStyleCard": "Card",
+    "tabStyleIcon": "Icon Only",
+    "tabStyleSimple": "Simple",
+
+    "pageProgress": "Page Progress Bar",
+    "pageLoader": "Page Loader Overlay",
+    "pageTransition": "Page Transition",
+    "transitionEffect": "Transition Style",
+
+    "showFooter": "Show Footer",
+    "fixedFooter": "Fixed Footer",
+    "companyName": "Company Name",
+    "companyWebsite": "Company Website",
+    "copyrightYear": "Copyright Year",
+    "icpNumber": "ICP License",
+    "icpLink": "ICP Link"
+  },
+
+  "error": {
+    "404Title": "Page Not Found",
+    "404Desc": "The page you are looking for doesn't exist or has been moved to another location.",
+    "500Title": "Internal Server Error",
+    "500Desc": "The server encountered an unexpected issue. Our team has been notified and is working on a fix.",
+    "goHome": "Go to Homepage",
+    "goBack": "Go Back",
+    "tryAgain": "Try Again",
+    "retrying": "Retrying...",
+    "reportIssue": "Report Issue",
+    "help": "If this problem persists, please contact support or try again later.",
+    "online": "Online",
+    "offline": "No Internet Connection",
+    "occurredAt": "Occurred at",
+    "agoSuffix": "ago",
+    "autoRetryOn": "Auto-retry in {{s}}s",
+    "cancelAutoRetry": "Cancel auto-retry",
+    "copyDetails": "Copy error log",
+    "copied": "Copied"
+  },
+
+  "comingSoon": {
+    "title": "Feature Coming Soon",
+    "desc": "We're working hard to bring you this feature. Check back soon!",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "notify": "Notify Me",
+    "emailPlaceholder": "Enter your email...",
+    "emailSubmit": "Subscribe",
+    "launching": "Launching on",
+    "subscribed": "Successfully subscribed for notifications!"
+  },
+
+  "tabsBar": {
+    "maximize": "Maximize Workspace",
+    "restore": "Restore Layout"
+  },
+
+  "routes": {
+    "home": "Home",
+    "other": "Other",
+    "serverError": "Server Error",
+    "notFound": "Page Not Found",
+    "comingSoon": "Coming Soon",
+    "login": "Login",
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
+    "humanResource": "Human Resource Management",
+    "employeeList": "Employees",
+    "roleManager": "Role & Permissions",
+    "roleList": "Roles",
+    "settingSystem": "System Config",
+    "auditLog": "Audit Logs"
+  },
+  "auth": {
+    "secureCloudStorage": "Secure Management System",
+    "loginDesc": "Sign in to access your dashboard",
+    "emailAddress": "Email Address / Username",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "forgotDesc": "Enter your email to receive a password recovery link",
+    "sendOtp": "Send OTP Code",
+    "sending": "Sending...",
+    "backToLogin": "Back to Login",
+    "verificationCode": "Verification Code",
+    "enter6Digit": "Please enter the 6-digit OTP",
+    "newPassword": "New Password",
+    "resetPasswordLogin": "Update Password & Login",
+    "processing": "Processing...",
+    "back": "Back"
+  }
+}

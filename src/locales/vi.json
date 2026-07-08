@@ -1,0 +1,217 @@
+{
+  "menu": {
+    "dashboard": "Bảng điều khiển",
+    "analytics": "Phân tích số liệu",
+    "users": "Quản lý thành viên",
+    "settings": "Cấu hình hệ thống",
+    "roles": "Phân quyền",
+    "logs": "Nhật ký hệ thống"
+  },
+
+  "navbar": {
+    "toggleSidebar": "Thu gọn/Mở rộng Sidebar",
+    "quickSearch": "Tìm kiếm nhanh...",
+    "openSettings": "Mở cài đặt",
+    "profile": "Hồ sơ cá nhân",
+    "settings": "Cài đặt hệ thống",
+    "logout": "Đăng xuất",
+    "changeTheme": "Đổi giao diện"
+  },
+
+  "search": {
+    "placeholder": "Nhập tên trang hoặc chức năng...",
+    "results": "Kết quả tìm kiếm",
+    "noResults": "Không tìm thấy kết quả nào",
+    "tryAnother": "Hãy thử tìm kiếm với từ khóa khác",
+    "popularPages": "Chức năng phổ biến",
+    "popularDashboard": "Bảng điều khiển",
+    "popularAnalytics": "Phân tích số liệu",
+    "popularUsers": "Quản lý thành viên",
+    "popularSettings": "Cài đặt hệ thống",
+    "recentSearches": "Tìm kiếm gần đây",
+    "clearAll": "Xóa tất cả",
+    "remove": "Xóa",
+    "noRecent": "Chưa có lịch sử tìm kiếm",
+    "navigate": "Di chuyển",
+    "select": "Chọn"
+  },
+
+  "configSetting": {
+    "title": "Cấu hình giao diện",
+    "copied": "Đã sao chép cấu hình vào bộ nhớ tạm!",
+    "copiedTitle": "Đã sao chép",
+    "copiedMessage": "Đã sao chép cấu hình vào bộ nhớ tạm!",
+    "reset": "Thiết lập lại",
+    "copyConfig": "Sao chép cấu hình",
+    "clearCacheLogout": "Xóa bộ nhớ đệm & Đăng xuất",
+
+    "tab": {
+      "general": "Chung",
+      "interface": "Giao diện",
+      "layout": "Bố cục",
+      "sidebar": "Sidebar",
+      "tabs": "Thanh tab",
+      "effects": "Hiệu ứng",
+      "footer": "Footer"
+    },
+
+    "language": "Ngôn ngữ",
+    "dynamicTitle": "Tiêu đề động",
+    "backToTop": "Nút lên đầu trang",
+    "watermark": "Hình mờ (Watermark)",
+    "watermarkText": "Nội dung hình mờ",
+    "placeholderWatermark": "Nhập chữ hình mờ...",
+
+    "theme": "Theme",
+    "themeLight": "Sáng",
+    "themeDark": "Tối",
+    "themeSystem": "Hệ thống",
+    "colorBlind": "Chế độ mù màu",
+    "grayscale": "Chế độ xám",
+
+    "borderRadius": "Bo tròn góc",
+    "fontFamily": "Font chữ",
+    "fontWeight": "Độ đậm nhạt chữ",
+    "titleSize": "Cỡ chữ tiêu đề",
+    "bodySize": "Cỡ chữ body",
+    "boldText": "Chữ đậm",
+    "italicText": "Chữ nghiêng",
+    "uppercaseText": "Chữ hoa",
+
+    "primaryColor": "Màu theme chủ yếu",
+    "solidColor": "Màu trơn",
+    "gradientColor": "Màu gradient",
+    "navbarColor": "Màu Navbar (Đơn sắc)",
+    "navbarGradient": "Màu Navbar (Gradient)",
+    "sidebarColor": "Màu Sidebar (Đơn sắc)",
+    "sidebarGradient": "Màu Sidebar (Gradient)",
+
+    "color": {
+      "blue": "Xanh dương",
+      "red": "Đỏ",
+      "yellow": "Vàng",
+      "brown": "Nâu",
+      "purple": "Tím",
+      "pink": "Hồng",
+      "orange": "Cam",
+      "emerald": "Xanh lá (Emerald)",
+      "teal": "Teal",
+      "indigo": "Indigo"
+    },
+
+    "layoutMode": "Kiểu bố cục",
+    "sidebarPosition": "Vị trí sidebar",
+    "configPosition": "Vị trí bảng cấu hình",
+    "positionLeft": "Trái",
+    "positionRight": "Phải",
+    "positionTop": "Trên",
+    "positionBottom": "Dưới",
+
+    "showSidebar": "Hiển thị sidebar",
+    "collapseSidebar": "Thu gọn sidebar (Icon)",
+    "sidebarWidth": "Độ rộng khi mở",
+    "sidebarCollapsedWidth": "Độ rộng khi thu nhỏ",
+    "accordionMenu": "Chỉ mở một menu con",
+
+    "showTabs": "Hiển thị thanh tab",
+    "persistTabs": "Lưu trữ thanh tab",
+    "dragTabs": "Sắp xếp kéo thả tab",
+    "showTabIcons": "Hiển thị biểu tượng tab",
+    "showMaximizeTab": "Hiển thị nút phóng to tab",
+    "tabStyle": "Kiểu tab",
+    "maxTabs": "Số lượng tab tối đa",
+    "tabStyleChrome": "Chrome",
+    "tabStyleCard": "Thẻ (Card)",
+    "tabStyleIcon": "Icon",
+    "tabStyleSimple": "Đơn giản",
+
+    "pageProgress": "Tiến trình trang (Progress)",
+    "pageLoader": "Tải trang (Loader)",
+    "pageTransition": "Chuyển trang (Transition)",
+    "transitionEffect": "Hiệu ứng chuyển trang",
+
+    "showFooter": "Hiển thị chân trang",
+    "fixedFooter": "Cố định chân trang",
+    "companyName": "Tên công ty",
+    "companyWebsite": "Trang web công ty",
+    "copyrightYear": "Ngày bản quyền (Năm)",
+    "icpNumber": "Số ICP",
+    "icpLink": "Liên kết ICP"
+  },
+
+  "error": {
+    "404Title": "Trang không tồn tại",
+    "404Desc": "Đường dẫn bạn truy cập không tồn tại hoặc đã bị di chuyển sang một vị trí khác.",
+    "500Title": "Lỗi máy chủ",
+    "500Desc": "Máy chủ vừa gặp sự cố ngoài dự kiến. Đội kỹ thuật đã được thông báo và đang xử lý.",
+    "goHome": "Quay về Trang chủ",
+    "goBack": "Quay lại trang trước",
+    "tryAgain": "Thử lại",
+    "retrying": "Đang thử lại...",
+    "reportIssue": "Báo cáo sự cố",
+    "help": "Nếu tình trạng này còn tiếp diễn, hãy liên hệ đội hỗ trợ hoặc thử lại sau.",
+    "online": "Đang trực tuyến",
+    "offline": "Mất kết nối mạng",
+    "occurredAt": "Xảy ra lúc",
+    "agoSuffix": "trước",
+    "autoRetryOn": "Tự động thử lại sau {{s}}s",
+    "cancelAutoRetry": "Huỷ tự động thử lại",
+    "copyDetails": "Sao chép log lỗi",
+    "copied": "Đã sao chép"
+  },
+
+  "comingSoon": {
+    "title": "Tính năng đang phát triển",
+    "desc": "Chúng tôi đang nỗ lực hoàn thiện tính năng này. Hãy quay lại sớm nhé!",
+    "days": "Ngày",
+    "hours": "Giờ",
+    "minutes": "Phút",
+    "seconds": "Giây",
+    "notify": "Thông báo cho tôi",
+    "emailPlaceholder": "Nhập email của bạn...",
+    "emailSubmit": "Đăng ký",
+    "launching": "Sẽ ra mắt vào",
+    "subscribed": "Đã đăng ký nhận thông báo thành công!"
+  },
+
+  "tabsBar": {
+    "maximize": "Phóng to không gian làm việc",
+    "restore": "Khôi phục bố cục"
+  },
+
+  "routes": {
+    "home": "Trang chủ",
+    "other": "Khác",
+    "serverError": "Lỗi máy chủ",
+    "notFound": "Không tìm thấy trang",
+    "comingSoon": "Sắp ra mắt",
+    "login": "Đăng nhập",
+    "forgotPassword": "Quên mật khẩu",
+    "resetPassword": "Đặt lại mật khẩu",
+    "humanResource": "Quản lý nhân sự",
+    "employeeList": "Nhân viên",
+    "roleManager": "Quản lý phân quyền",
+    "roleList": "Vai trò",
+    "settingSystem": "Cấu hình hệ thống",
+    "auditLog": "Nhật ký kiểm tra"
+  },
+  "auth": {
+    "secureCloudStorage": "Hệ thống quản trị bảo mật",
+    "loginDesc": "Đăng nhập để tiếp tục truy cập trang quản trị",
+    "emailAddress": "Địa chỉ Email / Tên đăng nhập",
+    "password": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "signIn": "Đăng nhập",
+    "signingIn": "Đang đăng nhập...",
+    "forgotDesc": "Nhập email của bạn để nhận liên kết khôi phục mật khẩu",
+    "sendOtp": "Gửi mã OTP",
+    "sending": "Đang gửi...",
+    "backToLogin": "Quay lại Đăng nhập",
+    "verificationCode": "Mã xác nhận",
+    "enter6Digit": "Vui lòng nhập mã OTP 6 chữ số",
+    "newPassword": "Mật khẩu mới",
+    "resetPasswordLogin": "Cập nhật mật khẩu & Đăng nhập",
+    "processing": "Đang xử lý...",
+    "back": "Quay lại"
+  }
+}
