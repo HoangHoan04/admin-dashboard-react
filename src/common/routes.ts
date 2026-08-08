@@ -1,4 +1,4 @@
-import { CogIcon, HouseIcon, Settings, Shield, UsersIcon } from "lucide-react";
+import { CogIcon, HouseIcon, UsersIcon } from "lucide-react";
 export * from "../utils/route.utils";
 
 export const ROUTES = {
@@ -7,21 +7,21 @@ export const ROUTES = {
       key: "LOGIN",
       label: "routes.login",
       translationKey: "routes.login",
-      path: "/login",
+      path: "/auth/login",
       isShow: false,
     },
     FORGOT_PASSWORD: {
       key: "FORGOT_PASSWORD",
       label: "routes.forgotPassword",
       translationKey: "routes.forgotPassword",
-      path: "/forgot-password",
+      path: "/auth/forgot-password",
       isShow: false,
     },
     RESET_PASSWORD: {
       key: "RESET_PASSWORD",
       label: "routes.resetPassword",
       translationKey: "routes.resetPassword",
-      path: "/reset-password",
+      path: "/auth/reset-password",
       isShow: false,
     },
   },
@@ -33,55 +33,14 @@ export const ROUTES = {
       translationKey: "routes.home",
       path: "/",
       icon: HouseIcon,
-      isShow: false,
     },
 
-    HUMAN_RESOURCE: {
-      key: "HUMAN_RESOURCE",
-      label: "routes.humanResource",
-      translationKey: "routes.humanResource",
+    COMPONENTS: {
+      key: "COMPONENTS",
+      label: "routes.components",
+      translationKey: "routes.components",
       icon: UsersIcon,
-      path: "/human-resource",
-      children: {
-        EMPLOYEE_LIST: {
-          key: "EMPLOYEE_LIST",
-          label: "routes.employeeList",
-          translationKey: "routes.employeeList",
-          path: "/human-resource/employee",
-        },
-      },
-    },
-
-    ROLE_MANAGER: {
-      key: "ROLE_MANAGER",
-      label: "routes.roleManager",
-      translationKey: "routes.roleManager",
-      icon: Shield,
-      path: "/role-manager",
-      children: {
-        ROLE_LIST: {
-          key: "ROLE_LIST",
-          label: "routes.roleList",
-          translationKey: "routes.roleList",
-          path: "/role-manager/roles",
-        },
-      },
-    },
-
-    SETTING_SYSTEM: {
-      key: "SETTING_SYSTEM",
-      label: "routes.settingSystem",
-      translationKey: "routes.settingSystem",
-      icon: Settings,
-      path: "/system-settings",
-      children: {
-        AUDIT_LOG: {
-          key: "AUDIT_LOG",
-          label: "routes.auditLog",
-          translationKey: "routes.auditLog",
-          path: "/system-settings/audit-logs",
-        },
-      },
+      path: "/components",
     },
 
     OTHER: {

@@ -1,23 +1,31 @@
 import { ROUTES } from "@/common/routes";
 import ErrorBoundary from "@/components/common/ErrorBoundary";
 import AppLayout from "@/layout/AppLayout";
-import AuthPage from "@/pages/auth/AuthPage";
+import AuthLayout from "@/layout/AuthLayout";
+import ForgotPassword from "@/pages/auth/ForgotPassword";
+import LoginPage from "@/pages/auth/LoginPage";
 import HomePage from "@/pages/main/home";
-import EmployeePage from "@/pages/main/human-resource/employee-manager";
-import RolePage from "@/pages/main/role";
-import AuditLogPage from "@/pages/main/setting-system/audit-log";
 import ComingSoon from "@/pages/other/ComingSoon";
 import NotFound from "@/pages/other/NotFound";
 import ServerError from "@/pages/other/ServerError";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute";
 
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path={ROUTES.AUTH.LOGIN.path} element={<AuthPage />} />
-      <Route path={ROUTES.AUTH.FORGOT_PASSWORD.path} element={<AuthPage />} />
-      <Route path={ROUTES.AUTH.RESET_PASSWORD.path} element={<AuthPage />} />
+      <Route path="/auth" element={<AuthLayout />}>
+        <Route index element={<Navigate to="login" replace />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="forgot-password" element={<ForgotPassword />} />
+        <Route path="reset-password" element={<ForgotPassword />} />
+      </Route>
+
+      <Route path="/login" element={<Navigate to={ROUTES.AUTH.LOGIN.path} replace />} />
+      <Route
+        path="/forgot-password"
+        element={<Navigate to={ROUTES.AUTH.FORGOT_PASSWORD.path} replace />}
+      />
 
       <Route
         path={ROUTES.MAIN.OTHER.children.ERROR_SERVER.path}
@@ -37,20 +45,6 @@ export default function AppRoutes() {
           }
         >
           <Route index element={<HomePage />} />
-
-          <Route
-            path={ROUTES.MAIN.HUMAN_RESOURCE.children.EMPLOYEE_LIST.path}
-            element={<EmployeePage />}
-          />
-          <Route
-            path={ROUTES.MAIN.ROLE_MANAGER.children.ROLE_LIST.path}
-            element={<RolePage />}
-          />
-
-          <Route
-            path={ROUTES.MAIN.SETTING_SYSTEM.children.AUDIT_LOG.path}
-            element={<AuditLogPage />}
-          />
         </Route>
       </Route>
 
